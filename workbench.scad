@@ -48,6 +48,7 @@ echo("2  x", innerWidth - footSpace, " x ", bottomPlateLength, " x ", topThickne
 
 echo("Planks:");
 echo("2  x ", plankHeight, " x ", plankWidth, " x ", tableLength, "mm");
+echo("2  x ", plankHeight, " x ", plankWidth, " x ", tableWidth - (plankWidth * 2));
 echo("12 x ", plankHeight, " x ", plankWidth, " x ", footHeight, "mm");
 
 echo("6  x ", plankHeight, " x ", plankWidth, " x ", innerWidth, "mm");
