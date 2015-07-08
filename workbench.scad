@@ -44,7 +44,7 @@ bottomPlateLength = (tableLength - plankWidth * 5) / 2;
 // Print the needed parts
 echo("Plates:");
 echo("1  x", tableWidth, " x ", tableLength, " x ", topThickness, "mm");
-echo("2  x", innerWidth - footSpace, " x ", tableWidth - plankWidth * 5, " x ", topThickness, "mm");
+echo("2  x", innerWidth - footSpace, " x ", bottomPlateLength, " x ", topThickness, "mm");
 
 echo("Planks:");
 echo("2  x ", plankHeight, " x ", plankWidth, " x ", tableLength, "mm");
